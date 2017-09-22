@@ -107,16 +107,10 @@ fi;
 
 # Set the terminal title and prompt.
 PS1="\[\033]0;\W\007\]"; # working directory base name
-# PS1+="\[${bold}\]\n"; # newline
-PS1+="\[${bold}\]"; # newline
-PS1+="\[${userStyle}\]\u"; # username
-PS1+="\[${black}\] at ";
-PS1+="\[${hostStyle}\]\h"; # host
-PS1+="\[${black}\] in ";
-PS1+="\[${green}\]\w"; # working directory full path
-PS1+="\$(prompt_git \"\[${black}\] on \[${purple}\]\" \"\[${blue}\]\")"; # Git repository details
-PS1+="\n";
-PS1+="\[${green}\]\$ \[${reset}\]"; # `$` (and reset color)
+# PS1+="\[${bold}\]"; # no newline
+PS1+="\[${black}\]\W"; # working directory full path
+PS1+="\$(prompt_git \" \[${blue}\]\" \"\[${orange}\]\")"; # Git repository details
+PS1+="\[${green}\] \$ \[${reset}\]"; # `$` (and reset color)
 export PS1;
 
 PS2="\[${red}\]→ \[${reset}\]";
