@@ -1,0 +1,9 @@
+git log \
+	--date=iso \
+	--author='Abe Ratnofsky <abe@goswift.ly>' \
+	--since=`date -v-1y +%Y-%m-%d` \
+	--until=`date -v-0d +%Y-%m-%d` \
+	--summary \
+	--show-notes \
+	--oneline \
+	--date-order \
