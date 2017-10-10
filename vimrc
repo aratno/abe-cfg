@@ -7,6 +7,7 @@ inoremap jj <Esc>
 call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/seoul256.vim'
 	Plug 'tpope/vim-surround'
+	Plug 'posva/vim-vue'
 call plug#end()
 
 colo seoul256
