@@ -1,1 +1,1 @@
-git config --global alias.summary 'log --since="yesterday" --author="Abe Ratnofsky <abe@goswift.ly>"'
+git config --global alias.summary 'log --since="yesterday" --author="Abe Ratnofsky <abe@goswift.ly>" --abbrev-commit --format="oneline"'
