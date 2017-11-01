@@ -1,5 +1,6 @@
 source ~/abe-cfg/bash-prompt.bash
 source ~/abe-cfg/git-completion.bash
+source ~/abe-cfg/git-summary.bash
 
 PATH=$PATH:~/.abe-cfg/scripts
 
