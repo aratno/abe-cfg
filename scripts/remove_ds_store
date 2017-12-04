@@ -1,0 +1,3 @@
+# Removes .DS_Store files from all children of $PWD
+
+find ./* -name ".DS_Store" -exec rm {} \;
