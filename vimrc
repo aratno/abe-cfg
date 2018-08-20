@@ -4,6 +4,7 @@ set mouse=a
 set updatetime=250
 set nowrap
 set ruler
+set breakindent
 inoremap jj <Esc>
 
 filetype plugin indent on
