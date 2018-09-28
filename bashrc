@@ -12,5 +12,6 @@ PATH=$PATH:~/abe-cfg/scripts
 
 git config --global core.editor /usr/bin/vim
 
+# Transitime
 TTROOT=$HOME/Repos
 export TTROOT
