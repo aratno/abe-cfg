@@ -9,7 +9,7 @@ if [ -f $SECRETS_FILE ]
         VARNAME=$(echo $line | sed s/\ *=.*//g)
         VARVAL=$(echo $line | sed s/.*=\ *//g)
 
-        eval eval "export $VARNAME='$VARVAL'"
+        eval "export $VARNAME='$VARVAL'"
 
     done < $SECRETS_FILE
 fi
