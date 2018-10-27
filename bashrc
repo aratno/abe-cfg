@@ -3,6 +3,8 @@ source ~/abe-cfg/git-completion.bash
 source ~/abe-cfg/git-summary.bash
 source ~/abe-cfg/git-difff.bash
 
+source ~/abe-cfg/scripts/load_secrets.bash
+
 # Disabled for now, has problem on shell launch
 # source ~/abe-cfg/git-open.bash
 
