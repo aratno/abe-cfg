@@ -1,2 +1,2 @@
-# Some special-case checks to make sure sensitive scripts aren't checked-in
-ttsql
+# Nothing of value is kept here, usually just PATH-hacks
+*
